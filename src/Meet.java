@@ -1,10 +1,8 @@
 public class Meet {
     String name;
-    String town;
-    int yearOfBirth;
+    private String town;
+    private int yearOfBirth;
     String jobTitle;
-
-
 
 
 
@@ -30,9 +28,25 @@ public class Meet {
             this.jobTitle = jobTitle;
         }
 
+        }
+
+    public String getTown() {
+        return town;
     }
 
+    public void setTown(String town) {
+        this.town = town;
+    }
 
+    public int getYearOfBirth() {
+        return yearOfBirth;
+    }
 
-
+    public void setYearOfBirth(int yearOfBirth) {
+        this.yearOfBirth = yearOfBirth;
+    }
 }
+
+
+
+
